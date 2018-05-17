@@ -1,0 +1,184 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:39:19 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Thu Apr 19 14:52:03 2018
+# Process ID: 17485
+# Current directory: /home/chiwei/work/checkout/kcu116/kcu116_ibert/work/ibert_bank_all/ibert_bank_all_ex
+# Command line: vivado ibert_bank_all_ex.xpr
+# Log file: /home/chiwei/work/checkout/kcu116/kcu116_ibert/work/ibert_bank_all/ibert_bank_all_ex/vivado.log
+# Journal file: /home/chiwei/work/checkout/kcu116/kcu116_ibert/work/ibert_bank_all/ibert_bank_all_ex/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project ibert_bank_all_ex.xpr
+update_compile_order -fileset sources_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {/home/chiwei/work/checkout/kcu116/kcu116_ibert/work/ibert_bank_all/ibert_bank_all_ex/ibert_bank_all_ex.runs/impl_1/example_ibert_bank_all.bit} [get_hw_devices xcku5p_0]
+set_property PROBES.FILE {/home/chiwei/work/checkout/kcu116/kcu116_ibert/work/ibert_bank_all/ibert_bank_all_ex/ibert_bank_all_ex.runs/impl_1/example_ibert_bank_all.ltx} [get_hw_devices xcku5p_0]
+set_property FULL_PROBES.FILE {/home/chiwei/work/checkout/kcu116/kcu116_ibert/work/ibert_bank_all/ibert_bank_all_ex/ibert_bank_all_ex.runs/impl_1/example_ibert_bank_all.ltx} [get_hw_devices xcku5p_0]
+current_hw_device [get_hw_devices xcku5p_0]
+refresh_hw_device [lindex [get_hw_devices xcku5p_0] 0]
+set_property PROBES.FILE {/home/chiwei/work/checkout/kcu116/kcu116_ibert/work/ibert_bank_all/ibert_bank_all_ex/ibert_bank_all_ex.runs/impl_1/example_ibert_bank_all.ltx} [get_hw_devices xcku5p_0]
+set_property FULL_PROBES.FILE {/home/chiwei/work/checkout/kcu116/kcu116_ibert/work/ibert_bank_all/ibert_bank_all_ex/ibert_bank_all_ex.runs/impl_1/example_ibert_bank_all.ltx} [get_hw_devices xcku5p_0]
+set_property PROGRAM.FILE {/home/chiwei/work/checkout/kcu116/kcu116_ibert/work/ibert_bank_all/ibert_bank_all_ex/ibert_bank_all_ex.runs/impl_1/example_ibert_bank_all.bit} [get_hw_devices xcku5p_0]
+program_hw_devices [get_hw_devices xcku5p_0]
+refresh_hw_device [lindex [get_hw_devices xcku5p_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xcku5p_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xcku5p_0]
+set_property PROGRAM.FILE {/home/chiwei/work/checkout/kcu116/kcu116_ibert/work/ibert_bank_all/ibert_bank_all_ex/ibert_bank_all_ex.runs/impl_1/example_ibert_bank_all.bit} [get_hw_devices xcku5p_0]
+program_hw_devices [get_hw_devices xcku5p_0]
+refresh_hw_device [lindex [get_hw_devices xcku5p_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xcku5p_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xcku5p_0]
+set_property PROGRAM.FILE {/home/chiwei/work/checkout/kcu116/kcu116_ibert/work/ibert_bank_all/ibert_bank_all_ex/ibert_bank_all_ex.runs/impl_1/example_ibert_bank_all.bit} [get_hw_devices xcku5p_0]
+program_hw_devices [get_hw_devices xcku5p_0]
+refresh_hw_device [lindex [get_hw_devices xcku5p_0] 0]
+program_hw_devices [get_hw_devices xcku5p_0]
+set_property PROBES.FILE {} [get_hw_devices xcku5p_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xcku5p_0]
+set_property PROGRAM.FILE {/home/chiwei/work/checkout/kcu116/kcu116_ibert/ready_for_download/ibert_bank_all.bit} [get_hw_devices xcku5p_0]
+program_hw_devices [get_hw_devices xcku5p_0]
+refresh_hw_device [lindex [get_hw_devices xcku5p_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xcku5p_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xcku5p_0]
+set_property PROGRAM.FILE {/home/chiwei/work/checkout/kcu116/kcu116_ibert/ready_for_download/ibert_bank_all.bit} [get_hw_devices xcku5p_0]
+program_hw_devices [get_hw_devices xcku5p_0]
+refresh_hw_device [lindex [get_hw_devices xcku5p_0] 0]
+set xil_newLinks [list]
+set xil_newLink [create_hw_sio_link -description {Link 0} [lindex [get_hw_sio_txs localhost:3121/xilinx_tcf/Digilent/210308A47500/0_1_0_0/IBERT/Quad_224/MGT_X0Y0/TX] 0] [lindex [get_hw_sio_rxs localhost:3121/xilinx_tcf/Digilent/210308A47500/0_1_0_0/IBERT/Quad_224/MGT_X0Y0/RX] 0] ]
+lappend xil_newLinks $xil_newLink
+set xil_newLink [create_hw_sio_link -description {Link 1} [lindex [get_hw_sio_txs localhost:3121/xilinx_tcf/Digilent/210308A47500/0_1_0_0/IBERT/Quad_224/MGT_X0Y1/TX] 0] [lindex [get_hw_sio_rxs localhost:3121/xilinx_tcf/Digilent/210308A47500/0_1_0_0/IBERT/Quad_224/MGT_X0Y1/RX] 0] ]
+lappend xil_newLinks $xil_newLink
+set xil_newLink [create_hw_sio_link -description {Link 2} [lindex [get_hw_sio_txs localhost:3121/xilinx_tcf/Digilent/210308A47500/0_1_0_0/IBERT/Quad_224/MGT_X0Y2/TX] 0] [lindex [get_hw_sio_rxs localhost:3121/xilinx_tcf/Digilent/210308A47500/0_1_0_0/IBERT/Quad_224/MGT_X0Y2/RX] 0] ]
+lappend xil_newLinks $xil_newLink
+set xil_newLink [create_hw_sio_link -description {Link 3} [lindex [get_hw_sio_txs localhost:3121/xilinx_tcf/Digilent/210308A47500/0_1_0_0/IBERT/Quad_224/MGT_X0Y3/TX] 0] [lindex [get_hw_sio_rxs localhost:3121/xilinx_tcf/Digilent/210308A47500/0_1_0_0/IBERT/Quad_224/MGT_X0Y3/RX] 0] ]
+lappend xil_newLinks $xil_newLink
+set xil_newLink [create_hw_sio_link -description {Link 4} [lindex [get_hw_sio_txs localhost:3121/xilinx_tcf/Digilent/210308A47500/0_1_0_0/IBERT/Quad_225/MGT_X0Y4/TX] 0] [lindex [get_hw_sio_rxs localhost:3121/xilinx_tcf/Digilent/210308A47500/0_1_0_0/IBERT/Quad_225/MGT_X0Y4/RX] 0] ]
+lappend xil_newLinks $xil_newLink
+set xil_newLink [create_hw_sio_link -description {Link 5} [lindex [get_hw_sio_txs localhost:3121/xilinx_tcf/Digilent/210308A47500/0_1_0_0/IBERT/Quad_225/MGT_X0Y5/TX] 0] [lindex [get_hw_sio_rxs localhost:3121/xilinx_tcf/Digilent/210308A47500/0_1_0_0/IBERT/Quad_225/MGT_X0Y5/RX] 0] ]
+lappend xil_newLinks $xil_newLink
+set xil_newLink [create_hw_sio_link -description {Link 6} [lindex [get_hw_sio_txs localhost:3121/xilinx_tcf/Digilent/210308A47500/0_1_0_0/IBERT/Quad_225/MGT_X0Y6/TX] 0] [lindex [get_hw_sio_rxs localhost:3121/xilinx_tcf/Digilent/210308A47500/0_1_0_0/IBERT/Quad_225/MGT_X0Y6/RX] 0] ]
+lappend xil_newLinks $xil_newLink
+set xil_newLink [create_hw_sio_link -description {Link 7} [lindex [get_hw_sio_txs localhost:3121/xilinx_tcf/Digilent/210308A47500/0_1_0_0/IBERT/Quad_225/MGT_X0Y7/TX] 0] [lindex [get_hw_sio_rxs localhost:3121/xilinx_tcf/Digilent/210308A47500/0_1_0_0/IBERT/Quad_225/MGT_X0Y7/RX] 0] ]
+lappend xil_newLinks $xil_newLink
+set xil_newLink [create_hw_sio_link -description {Link 8} [lindex [get_hw_sio_txs localhost:3121/xilinx_tcf/Digilent/210308A47500/0_1_0_0/IBERT/Quad_226/MGT_X0Y8/TX] 0] [lindex [get_hw_sio_rxs localhost:3121/xilinx_tcf/Digilent/210308A47500/0_1_0_0/IBERT/Quad_226/MGT_X0Y8/RX] 0] ]
+lappend xil_newLinks $xil_newLink
+set xil_newLink [create_hw_sio_link -description {Link 9} [lindex [get_hw_sio_txs localhost:3121/xilinx_tcf/Digilent/210308A47500/0_1_0_0/IBERT/Quad_226/MGT_X0Y9/TX] 0] [lindex [get_hw_sio_rxs localhost:3121/xilinx_tcf/Digilent/210308A47500/0_1_0_0/IBERT/Quad_226/MGT_X0Y9/RX] 0] ]
+lappend xil_newLinks $xil_newLink
+set xil_newLink [create_hw_sio_link -description {Link 10} [lindex [get_hw_sio_txs localhost:3121/xilinx_tcf/Digilent/210308A47500/0_1_0_0/IBERT/Quad_226/MGT_X0Y10/TX] 0] [lindex [get_hw_sio_rxs localhost:3121/xilinx_tcf/Digilent/210308A47500/0_1_0_0/IBERT/Quad_226/MGT_X0Y10/RX] 0] ]
+lappend xil_newLinks $xil_newLink
+set xil_newLink [create_hw_sio_link -description {Link 11} [lindex [get_hw_sio_txs localhost:3121/xilinx_tcf/Digilent/210308A47500/0_1_0_0/IBERT/Quad_226/MGT_X0Y11/TX] 0] [lindex [get_hw_sio_rxs localhost:3121/xilinx_tcf/Digilent/210308A47500/0_1_0_0/IBERT/Quad_226/MGT_X0Y11/RX] 0] ]
+lappend xil_newLinks $xil_newLink
+set xil_newLink [create_hw_sio_link -description {Link 12} [lindex [get_hw_sio_txs localhost:3121/xilinx_tcf/Digilent/210308A47500/0_1_0_0/IBERT/Quad_227/MGT_X0Y12/TX] 0] [lindex [get_hw_sio_rxs localhost:3121/xilinx_tcf/Digilent/210308A47500/0_1_0_0/IBERT/Quad_227/MGT_X0Y12/RX] 0] ]
+lappend xil_newLinks $xil_newLink
+set xil_newLink [create_hw_sio_link -description {Link 13} [lindex [get_hw_sio_txs localhost:3121/xilinx_tcf/Digilent/210308A47500/0_1_0_0/IBERT/Quad_227/MGT_X0Y13/TX] 0] [lindex [get_hw_sio_rxs localhost:3121/xilinx_tcf/Digilent/210308A47500/0_1_0_0/IBERT/Quad_227/MGT_X0Y13/RX] 0] ]
+lappend xil_newLinks $xil_newLink
+set xil_newLink [create_hw_sio_link -description {Link 14} [lindex [get_hw_sio_txs localhost:3121/xilinx_tcf/Digilent/210308A47500/0_1_0_0/IBERT/Quad_227/MGT_X0Y14/TX] 0] [lindex [get_hw_sio_rxs localhost:3121/xilinx_tcf/Digilent/210308A47500/0_1_0_0/IBERT/Quad_227/MGT_X0Y14/RX] 0] ]
+lappend xil_newLinks $xil_newLink
+set xil_newLink [create_hw_sio_link -description {Link 15} [lindex [get_hw_sio_txs localhost:3121/xilinx_tcf/Digilent/210308A47500/0_1_0_0/IBERT/Quad_227/MGT_X0Y15/TX] 0] [lindex [get_hw_sio_rxs localhost:3121/xilinx_tcf/Digilent/210308A47500/0_1_0_0/IBERT/Quad_227/MGT_X0Y15/RX] 0] ]
+lappend xil_newLinks $xil_newLink
+set xil_newLinkGroup [create_hw_sio_linkgroup -description {Link Group 0} [get_hw_sio_links $xil_newLinks]]
+unset xil_newLinks
+set_property LOOPBACK {Near-End PCS} [get_hw_sio_links -of_objects [get_hw_sio_linkgroups {LINKGROUP_0}]]
+commit_hw_sio [get_hw_sio_links -of_objects [get_hw_sio_linkgroups {LINKGROUP_0}]]
+set_property LOOPBACK {Near-End PMA} [get_hw_sio_links -of_objects [get_hw_sio_linkgroups {LINKGROUP_0}]]
+commit_hw_sio [get_hw_sio_links -of_objects [get_hw_sio_linkgroups {LINKGROUP_0}]]
+set_property LOGIC.MGT_ERRCNT_RESET_CTRL 1 [get_hw_sio_links -of_objects [get_hw_sio_linkgroups {LINKGROUP_0}]]
+commit_hw_sio [get_hw_sio_links -of_objects [get_hw_sio_linkgroups {LINKGROUP_0}]]
+set_property LOGIC.MGT_ERRCNT_RESET_CTRL 0 [get_hw_sio_links -of_objects [get_hw_sio_linkgroups {LINKGROUP_0}]]
+commit_hw_sio [get_hw_sio_links -of_objects [get_hw_sio_linkgroups {LINKGROUP_0}]]
+set_property LOGIC.MGT_ERRCNT_RESET_CTRL 1 [get_hw_sio_links -of_objects [get_hw_sio_linkgroups {LINKGROUP_0}]]
+commit_hw_sio [get_hw_sio_links -of_objects [get_hw_sio_linkgroups {LINKGROUP_0}]]
+set_property LOGIC.MGT_ERRCNT_RESET_CTRL 0 [get_hw_sio_links -of_objects [get_hw_sio_linkgroups {LINKGROUP_0}]]
+commit_hw_sio [get_hw_sio_links -of_objects [get_hw_sio_linkgroups {LINKGROUP_0}]]
+set_property LOGIC.MGT_ERRCNT_RESET_CTRL 1 [get_hw_sio_links -of_objects [get_hw_sio_linkgroups {LINKGROUP_0}]]
+commit_hw_sio [get_hw_sio_links -of_objects [get_hw_sio_linkgroups {LINKGROUP_0}]]
+set_property LOGIC.MGT_ERRCNT_RESET_CTRL 0 [get_hw_sio_links -of_objects [get_hw_sio_linkgroups {LINKGROUP_0}]]
+commit_hw_sio [get_hw_sio_links -of_objects [get_hw_sio_linkgroups {LINKGROUP_0}]]
+set_property LOGIC.MGT_ERRCNT_RESET_CTRL 1 [get_hw_sio_links -of_objects [get_hw_sio_linkgroups {LINKGROUP_0}]]
+commit_hw_sio [get_hw_sio_links -of_objects [get_hw_sio_linkgroups {LINKGROUP_0}]]
+set_property LOGIC.MGT_ERRCNT_RESET_CTRL 0 [get_hw_sio_links -of_objects [get_hw_sio_linkgroups {LINKGROUP_0}]]
+commit_hw_sio [get_hw_sio_links -of_objects [get_hw_sio_linkgroups {LINKGROUP_0}]]
+set_property LOGIC.MGT_ERRCNT_RESET_CTRL 1 [get_hw_sio_links -of_objects [get_hw_sio_linkgroups {LINKGROUP_0}]]
+commit_hw_sio [get_hw_sio_links -of_objects [get_hw_sio_linkgroups {LINKGROUP_0}]]
+set_property LOGIC.MGT_ERRCNT_RESET_CTRL 0 [get_hw_sio_links -of_objects [get_hw_sio_linkgroups {LINKGROUP_0}]]
+commit_hw_sio [get_hw_sio_links -of_objects [get_hw_sio_linkgroups {LINKGROUP_0}]]
+set_property LOGIC.MGT_ERRCNT_RESET_CTRL 1 [get_hw_sio_links -of_objects [get_hw_sio_linkgroups {LINKGROUP_0}]]
+commit_hw_sio [get_hw_sio_links -of_objects [get_hw_sio_linkgroups {LINKGROUP_0}]]
+set_property LOGIC.MGT_ERRCNT_RESET_CTRL 0 [get_hw_sio_links -of_objects [get_hw_sio_linkgroups {LINKGROUP_0}]]
+commit_hw_sio [get_hw_sio_links -of_objects [get_hw_sio_linkgroups {LINKGROUP_0}]]
+set_property LOGIC.MGT_ERRCNT_RESET_CTRL 1 [get_hw_sio_links -of_objects [get_hw_sio_linkgroups {LINKGROUP_0}]]
+commit_hw_sio [get_hw_sio_links -of_objects [get_hw_sio_linkgroups {LINKGROUP_0}]]
+set_property LOGIC.MGT_ERRCNT_RESET_CTRL 0 [get_hw_sio_links -of_objects [get_hw_sio_linkgroups {LINKGROUP_0}]]
+commit_hw_sio [get_hw_sio_links -of_objects [get_hw_sio_linkgroups {LINKGROUP_0}]]
+set_property LOGIC.MGT_ERRCNT_RESET_CTRL 1 [get_hw_sio_links -of_objects [get_hw_sio_linkgroups {LINKGROUP_0}]]
+commit_hw_sio [get_hw_sio_links -of_objects [get_hw_sio_linkgroups {LINKGROUP_0}]]
+set_property LOGIC.MGT_ERRCNT_RESET_CTRL 0 [get_hw_sio_links -of_objects [get_hw_sio_linkgroups {LINKGROUP_0}]]
+commit_hw_sio [get_hw_sio_links -of_objects [get_hw_sio_linkgroups {LINKGROUP_0}]]
+set_property LOGIC.MGT_ERRCNT_RESET_CTRL 1 [get_hw_sio_links -of_objects [get_hw_sio_linkgroups {LINKGROUP_0}]]
+commit_hw_sio [get_hw_sio_links -of_objects [get_hw_sio_linkgroups {LINKGROUP_0}]]
+set_property LOGIC.MGT_ERRCNT_RESET_CTRL 0 [get_hw_sio_links -of_objects [get_hw_sio_linkgroups {LINKGROUP_0}]]
+commit_hw_sio [get_hw_sio_links -of_objects [get_hw_sio_linkgroups {LINKGROUP_0}]]
+set_property RX_PATTERN {PRBS 31-bit} [get_hw_sio_links -of_objects [get_hw_sio_linkgroups {LINKGROUP_0}]]
+commit_hw_sio [get_hw_sio_links -of_objects [get_hw_sio_linkgroups {LINKGROUP_0}]]
+set_property PROBES.FILE {} [get_hw_devices xcku5p_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xcku5p_0]
+set_property PROGRAM.FILE {/home/chiwei/work/checkout/kcu116/kcu116_ibert/work/ibert_bank_all/ibert_bank_all_ex/ibert_bank_all_ex.runs/impl_1/example_ibert_bank_all.bit} [get_hw_devices xcku5p_0]
+program_hw_devices [get_hw_devices xcku5p_0]
+refresh_hw_device [lindex [get_hw_devices xcku5p_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xcku5p_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xcku5p_0]
+set_property PROGRAM.FILE {/home/chiwei/work/checkout/kcu116/kcu116_ibert/work/ibert_bank_all/ibert_bank_all_ex/ibert_bank_all_ex.runs/impl_1/example_ibert_bank_all.bit} [get_hw_devices xcku5p_0]
+program_hw_devices [get_hw_devices xcku5p_0]
+refresh_hw_device [lindex [get_hw_devices xcku5p_0] 0]
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+refresh_hw_device [lindex [get_hw_devices xcku5p_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xcku5p_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xcku5p_0]
+set_property PROGRAM.FILE {/home/chiwei/work/checkout/kcu116/kcu116_ibert/work/ibert_bank_all/ibert_bank_all_ex/ibert_bank_all_ex.runs/impl_1/example_ibert_bank_all.bit} [get_hw_devices xcku5p_0]
+program_hw_devices -disable_eos_check [get_hw_devices xcku5p_0]
+refresh_hw_device [lindex [get_hw_devices xcku5p_0] 0]
+set_property PROBES.FILE {/home/chiwei/work/checkout/kcu116/kcu116_ibert/work/ibert_bank_all/ibert_bank_all_ex/ibert_bank_all_ex.runs/impl_1/example_ibert_bank_all.ltx} [get_hw_devices xcku5p_0]
+set_property FULL_PROBES.FILE {/home/chiwei/work/checkout/kcu116/kcu116_ibert/work/ibert_bank_all/ibert_bank_all_ex/ibert_bank_all_ex.runs/impl_1/example_ibert_bank_all.ltx} [get_hw_devices xcku5p_0]
+set_property PROGRAM.FILE {/home/chiwei/work/checkout/kcu116/kcu116_ibert/work/ibert_bank_all/ibert_bank_all_ex/ibert_bank_all_ex.runs/impl_1/example_ibert_bank_all.bit} [get_hw_devices xcku5p_0]
+program_hw_devices [get_hw_devices xcku5p_0]
+refresh_hw_device [lindex [get_hw_devices xcku5p_0] 0]
+get_debug_cores dbg_hub
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {} [get_hw_devices xcku5p_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xcku5p_0]
+set_property PROGRAM.FILE {/home/chiwei/work/checkout/kcu116/kcu116_ibert/ready_for_download/ibert_bank_all.bit} [get_hw_devices xcku5p_0]
+program_hw_devices [get_hw_devices xcku5p_0]
+refresh_hw_device [lindex [get_hw_devices xcku5p_0] 0]
+set_property PROBES.FILE {/home/chiwei/work/checkout/kcu116/kcu116_ibert/work/ibert_bank_all/ibert_bank_all_ex/ibert_bank_all_ex.runs/impl_1/example_ibert_bank_all.ltx} [get_hw_devices xcku5p_0]
+set_property FULL_PROBES.FILE {/home/chiwei/work/checkout/kcu116/kcu116_ibert/work/ibert_bank_all/ibert_bank_all_ex/ibert_bank_all_ex.runs/impl_1/example_ibert_bank_all.ltx} [get_hw_devices xcku5p_0]
+set_property PROGRAM.FILE {/home/chiwei/work/checkout/kcu116/kcu116_ibert/work/ibert_bank_all/ibert_bank_all_ex/ibert_bank_all_ex.runs/impl_1/example_ibert_bank_all.bit} [get_hw_devices xcku5p_0]
+program_hw_devices [get_hw_devices xcku5p_0]
+refresh_hw_device [lindex [get_hw_devices xcku5p_0] 0]
+close_hw
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run impl_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+open_run impl_1
+open_hw
+connect_hw_server
+disconnect_hw_server localhost:3121
+connect_hw_server
+disconnect_hw_server localhost:3121
+connect_hw_server
+disconnect_hw_server localhost:3121
+connect_hw_server
+close_hw
+open_hw
+connect_hw_server
+open_hw_target
+current_hw_device [get_hw_devices xcku5p_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xcku5p_0] 0]
+close_hw

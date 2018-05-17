@@ -1,0 +1,56 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:39:19 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Thu Apr 19 14:12:17 2018
+# Process ID: 14269
+# Current directory: /home/chiwei/work/checkout/kcu116/kcu116_ibert/work/ibert_bank_all/ibert_bank_all_ex
+# Command line: vivado -mode tcl
+# Log file: /home/chiwei/work/checkout/kcu116/kcu116_ibert/work/ibert_bank_all/ibert_bank_all_ex/vivado.log
+# Journal file: /home/chiwei/work/checkout/kcu116/kcu116_ibert/work/ibert_bank_all/ibert_bank_all_ex/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_hw
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2018.1/data/ip'.
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.1
+  **** Build date : Apr  4 2018-18:56:09
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210308A47500
+current_hw_device [get_hw_devices xcku5p_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xcku5p_0] 0]
+INFO: [Labtools 27-1435] Device xcku5p (JTAG device index = 0) is not programmed (DONE status = 0).
+set_property PROBES.FILE {/home/chiwei/work/checkout/kcu116/kcu116_ibert/work/ibert_bank_all/ibert_bank_all_ex/ibert_bank_all_ex.runs/impl_1/example_ibert_bank_all.ltx} [get_hw_devices xcku5p_0]
+set_property FULL_PROBES.FILE {/home/chiwei/work/checkout/kcu116/kcu116_ibert/work/ibert_bank_all/ibert_bank_all_ex/ibert_bank_all_ex.runs/impl_1/example_ibert_bank_all.ltx} [get_hw_devices xcku5p_0]
+set_property PROGRAM.FILE {/home/chiwei/work/checkout/kcu116/kcu116_ibert/work/ibert_bank_all/ibert_bank_all_ex/ibert_bank_all_ex.runs/impl_1/example_ibert_bank_all.bit} [get_hw_devices xcku5p_0]
+program_hw_devices [get_hw_devices xcku5p_0]
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+ERROR: [Labtools 27-3419] Disconnecting from hw_server since it's not responding to requests.  It is recommended to investigate hw_server to find any issues.
+ERROR: [Labtools 27-3165] End of startup status: LOW
+program_hw_devices: Time (s): cpu = 00:02:30 ; elapsed = 00:02:34 . Memory (MB): peak = 6826.230 ; gain = 8.004 ; free physical = 7751 ; free virtual = 37793
+INFO: [Common 17-344] 'program_hw_devices' was cancelled
+ERROR: [Labtoolstcl 44-514] HW Server shutdown. Disconnecting from server: localhost:3121
+close_hw_target
+ERROR: [Labtoolstcl 44-142] There is no current hw_target and no option value given for 'hw_target'.
+disconnect_hw_server
+ERROR: [Labtoolstcl 44-141] There is no current hw_server and no option value given for 'hw_server'.
+close_hw
+****** Webtalk v2018.1 (64-bit)
+  **** SW Build 2188600 on Wed Apr  4 18:39:19 MDT 2018
+  **** IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source /home/chiwei/work/checkout/kcu116/kcu116_ibert/work/ibert_bank_all/ibert_bank_all_ex/.Xil/Vivado-14269-lzhou-dt2-vi-local/webtalk/labtool_webtalk.tcl -notrace
+INFO: [Common 17-186] '/home/chiwei/work/checkout/kcu116/kcu116_ibert/work/ibert_bank_all/ibert_bank_all_ex/.Xil/Vivado-14269-lzhou-dt2-vi-local/webtalk/usage_statistics_ext_labtool.xml' has been successfully sent to Xilinx on Thu Apr 19 14:17:36 2018. For additional details about this file, please refer to the WebTalk help file at /opt/Xilinx/Vivado/2018.1/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Thu Apr 19 14:17:36 2018...
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Apr 19 14:17:43 2018...

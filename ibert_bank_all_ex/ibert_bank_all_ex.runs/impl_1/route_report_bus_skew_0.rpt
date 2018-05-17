@@ -1,0 +1,16 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------------------------------------------
+| Tool Version      : Vivado v.2018.1 (lin64) Build 2188600 Wed Apr  4 18:39:19 MDT 2018
+| Date              : Tue Apr 24 15:00:12 2018
+| Host              : lzhou-dt2-vi-local running 64-bit CentOS Linux release 7.2.1511 (Core)
+| Command           : report_bus_skew -warn_on_violation -file route_report_bus_skew_0.rpt -rpx route_report_bus_skew_0.rpx
+| Design            : example_ibert_bank_all
+| Device            : xcku5p-ffvb676
+| Speed File        : -2  PRODUCTION 1.19 03-17-2018
+| Temperature Grade : E
+----------------------------------------------------------------------------------------------------------------------------
+
+Bus Skew Report
+
+No bus skew constraints
+

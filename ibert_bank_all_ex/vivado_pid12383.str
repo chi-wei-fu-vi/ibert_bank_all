@@ -1,0 +1,172 @@
+/*
+
+Xilinx Vivado v2018.1 (64-bit) [Major: 2018, Minor: 1]
+SW Build: 2188600 on Wed Apr  4 18:39:19 MDT 2018
+IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+
+Process ID: 12383
+License: Customer
+
+Current time: 	Thu Apr 19 13:31:13 PDT 2018
+Time zone: 	Pacific Standard Time (America/Los_Angeles)
+
+OS: CentOS Linux release 7.2.1511 (Core)
+OS Version: 3.10.0-327.36.1.el7.x86_64
+OS Architecture: amd64
+Available processors (cores): 8
+
+Display: localhost:10.0
+Screen size: 3840x1089
+Screen resolution (DPI): 96
+Available screens: 2
+Available disk space: 34 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	/opt/Xilinx/Vivado/2018.1/tps/lnx64/jre
+Java executable location: 	/opt/Xilinx/Vivado/2018.1/tps/lnx64/jre/bin/java
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	chiwei
+User home directory: /home/chiwei
+User working directory: /home/chiwei/work/checkout/kcu116/kcu116_ibert/work/ibert_bank_all/ibert_bank_all_ex
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /opt/Xilinx/Vivado
+HDI_APPROOT: /opt/Xilinx/Vivado/2018.1
+RDI_DATADIR: /opt/Xilinx/Vivado/2018.1/data
+RDI_BINDIR: /opt/Xilinx/Vivado/2018.1/bin
+
+Vivado preferences file location: /home/chiwei/.Xilinx/Vivado/2018.1/vivado.xml
+Vivado preferences directory: /home/chiwei/.Xilinx/Vivado/2018.1/
+Vivado layouts directory: /home/chiwei/.Xilinx/Vivado/2018.1/layouts
+PlanAhead jar file location: 	/opt/Xilinx/Vivado/2018.1/lib/classes/planAhead.jar
+Vivado log file location: 	/home/chiwei/work/checkout/kcu116/kcu116_ibert/work/ibert_bank_all/ibert_bank_all_ex/vivado.log
+Vivado journal file location: 	/home/chiwei/work/checkout/kcu116/kcu116_ibert/work/ibert_bank_all/ibert_bank_all_ex/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-12383-lzhou-dt2-vi-local
+
+GUI allocated memory:	194 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 5,028 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 59 MB (+59793kb) [00:00:03]
+// [Engine Memory]: 4,943 MB (+5032016kb) [00:00:03]
+// Opening Vivado Project: ibert_bank_all_ex.xpr. Version: Vivado v2018.1 
+// bv (ch):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project ibert_bank_all_ex.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,038 MB. GUI used memory: 35 MB. Current time: 4/19/18 1:31:15 PM PDT
+// [Engine Memory]: 5,215 MB (+25233kb) [00:00:21]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 109 MB (+48539kb) [00:00:25]
+// [GUI Memory]: 115 MB (+532kb) [00:00:25]
+// [GUI Memory]: 126 MB (+6059kb) [00:00:27]
+// Tcl Message: open_project ibert_bank_all_ex.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2018.1/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:24 . Memory (MB): peak = 6411.957 ; gain = 314.281 ; free physical = 8210 ; free virtual = 38250 
+// Project name: ibert_bank_all_ex; location: /home/chiwei/work/checkout/kcu116/kcu116_ibert/work/ibert_bank_all/ibert_bank_all_ex; part: xcku5p-ffvb676-2-e
+dismissDialog("Open Project"); // bv (ch)
+// [GUI Memory]: 134 MB (+1899kb) [00:00:29]
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 5,313 MB. GUI used memory: 105 MB. Current time: 4/19/18 1:31:40 PM PDT
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 21, true); // u (O, ch) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// bv (ch):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+dismissDialog("Open Hardware Manager"); // bv (ch)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (cM, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ac (ai, ch)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 INFO: [Labtools 27-2222] Launching hw_server... INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2018.1   **** Build date : Apr  4 2018-18:56:09     ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.   
+// [GUI Memory]: 143 MB (+1797kb) [00:00:40]
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (cM, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ac (ai, ch)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// Tcl Message: disconnect_hw_server localhost:3121 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Elapsed time: 11 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (cM, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ac (ai, ch)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// Tcl Message: disconnect_hw_server localhost:3121 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Elapsed time: 60 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (cM, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ac (ai, ch)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// Tcl Message: disconnect_hw_server localhost:3121 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (cM, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ac (ai, ch)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// Tcl Message: disconnect_hw_server localhost:3121 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// [GUI Memory]: 153 MB (+2727kb) [00:02:11]
+// [GUI Memory]: 170 MB (+9962kb) [00:02:12]
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "localhost (0) ; Connected", 0, "localhost (0)", 0, false); // t (O, ch)
+expandTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "localhost (0) ; Connected", 0); // t (O, ch)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "localhost (0) ; Connected", 0, "localhost (0)", 0, false, false, false, false, false, true); // t (O, ch) - Double Click
+// Tcl Command: 'rdi::info_commands {g*}'
+// Tcl Command: 'rdi::info_commands {ge*}'
+// Tcl Command: 'rdi::info_commands {get*}'
+// Tcl Command: 'rdi::info_commands {get_*}'
+// Tcl Command: 'rdi::info_commands {get_hw*}'
+// Tcl Command: 'rdi::info_commands {get_hw_*}'
+// Tcl Command: 'rdi::info_commands {get_hw_t*}'
+// Tcl Command: 'rdi::info_commands {get_hw_tar*}'
+// Tcl Command: 'rdi::info_commands {get_hw_targ*}'
+// Tcl Command: 'rdi::info_commands {get_hw_targe*}'
+// Tcl Command: 'rdi::info_commands {get_hw_target*}'
+// Tcl Command: 'rdi::info_commands {get_hw_targets*}'
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "get_hw_targets", true); // az (Y, ch)
+// Tcl Command: 'get_hw_targets'
+// Tcl Command: 'get_hw_targets'
+// Tcl Message: get_hw_targets 
+// Tcl Message: ERROR: [Labtoolstcl 44-199] No matching targets found on connected servers: localhost Resolution: If needed connect the desired target to a server and use command refresh_hw_server. Then rerun the get_hw_targets command. 
+// Tcl Message: ERROR: [Common 17-39] 'get_hw_targets' failed due to earlier errors. 
+// Tcl Command: 'rdi::info_commands {cl*}'
+// Tcl Command: 'rdi::info_commands {clos*}'
+// Tcl Command: 'rdi::info_commands {close*}'
+// Tcl Command: 'rdi::info_commands {close*}'

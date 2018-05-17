@@ -1,0 +1,85 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:39:19 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Thu Apr 19 13:33:53 2018
+# Process ID: 12793
+# Current directory: /home/chiwei/work/checkout/kcu116/kcu116_ibert/work/ibert_bank_all/ibert_bank_all_ex
+# Command line: vivado ibert_bank_all_ex.xpr
+# Log file: /home/chiwei/work/checkout/kcu116/kcu116_ibert/work/ibert_bank_all/ibert_bank_all_ex/vivado.log
+# Journal file: /home/chiwei/work/checkout/kcu116/kcu116_ibert/work/ibert_bank_all/ibert_bank_all_ex/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project ibert_bank_all_ex.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2018.1/data/ip'.
+open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:24 . Memory (MB): peak = 6408.332 ; gain = 306.055 ; free physical = 8194 ; free virtual = 38234
+update_compile_order -fileset sources_1
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.1
+  **** Build date : Apr  4 2018-18:56:09
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210308A47500
+set_property PROGRAM.FILE {/home/chiwei/work/checkout/kcu116/kcu116_ibert/work/ibert_bank_all/ibert_bank_all_ex/ibert_bank_all_ex.runs/impl_1/example_ibert_bank_all.bit} [get_hw_devices xcku5p_0]
+set_property PROBES.FILE {/home/chiwei/work/checkout/kcu116/kcu116_ibert/work/ibert_bank_all/ibert_bank_all_ex/ibert_bank_all_ex.runs/impl_1/example_ibert_bank_all.ltx} [get_hw_devices xcku5p_0]
+set_property FULL_PROBES.FILE {/home/chiwei/work/checkout/kcu116/kcu116_ibert/work/ibert_bank_all/ibert_bank_all_ex/ibert_bank_all_ex.runs/impl_1/example_ibert_bank_all.ltx} [get_hw_devices xcku5p_0]
+current_hw_device [get_hw_devices xcku5p_0]
+refresh_hw_device [lindex [get_hw_devices xcku5p_0] 0]
+INFO: [Labtools 27-1435] Device xcku5p (JTAG device index = 0) is not programmed (DONE status = 0).
+set_property PROBES.FILE {/home/chiwei/work/checkout/kcu116/kcu116_ibert/work/ibert_bank_all/ibert_bank_all_ex/ibert_bank_all_ex.runs/impl_1/example_ibert_bank_all.ltx} [get_hw_devices xcku5p_0]
+set_property FULL_PROBES.FILE {/home/chiwei/work/checkout/kcu116/kcu116_ibert/work/ibert_bank_all/ibert_bank_all_ex/ibert_bank_all_ex.runs/impl_1/example_ibert_bank_all.ltx} [get_hw_devices xcku5p_0]
+set_property PROGRAM.FILE {/home/chiwei/work/checkout/kcu116/kcu116_ibert/work/ibert_bank_all/ibert_bank_all_ex/ibert_bank_all_ex.runs/impl_1/example_ibert_bank_all.bit} [get_hw_devices xcku5p_0]
+program_hw_devices [get_hw_devices xcku5p_0]
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+ERROR: [Labtools 27-3419] Disconnecting from hw_server since it's not responding to requests.  It is recommended to investigate hw_server to find any issues.
+ERROR: [Labtools 27-3165] End of startup status: LOW
+program_hw_devices: Time (s): cpu = 00:31:42 ; elapsed = 00:31:39 . Memory (MB): peak = 6864.488 ; gain = 8.000 ; free physical = 7680 ; free virtual = 37722
+INFO: [Common 17-344] 'program_hw_devices' was cancelled
+ERROR: [Labtoolstcl 44-514] HW Server shutdown. Disconnecting from server: localhost:3121
+close_hw_target
+ERROR: [Labtoolstcl 44-142] There is no current hw_target and no option value given for 'hw_target'.
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [Labtools 27-2058] connect_hw_server command cancelled.
+connect_hw_server: Time (s): cpu = 00:00:00.80 ; elapsed = 00:00:28 . Memory (MB): peak = 6879.160 ; gain = 0.027 ; free physical = 7673 ; free virtual = 37715
+INFO: [Common 17-344] 'connect_hw_server' was cancelled
+close_hw
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [Labtools 27-2058] connect_hw_server command cancelled.
+connect_hw_server: Time (s): cpu = 00:00:00.89 ; elapsed = 00:00:47 . Memory (MB): peak = 6879.191 ; gain = 0.027 ; free physical = 7673 ; free virtual = 37714
+INFO: [Common 17-344] 'connect_hw_server' was cancelled
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+ERROR: [Labtoolstcl 44-494] There is no active target available for server at localhost.
+ Targets(s) ", jsn-JTAG-SMT2NC-210308A47500" may be locked by another hw_server.
+close_hw
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+ERROR: [Labtoolstcl 44-494] There is no active target available for server at localhost.
+ Targets(s) ", jsn-JTAG-SMT2NC-210308A47500" may be locked by another hw_server.
+disconnect_hw_server
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+ERROR: [Labtoolstcl 44-494] There is no active target available for server at localhost.
+ Targets(s) ", jsn-JTAG-SMT2NC-210308A47500" may be locked by another hw_server.
+connect_hw_server -url localhost:3121
+ERROR: [Labtoolstcl 44-586] Disconnect server connection, TCP:localhost:3121, before making a new one.
+close_project
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Apr 19 14:11:42 2018...
